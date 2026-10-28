@@ -1,0 +1,13 @@
+CUADRILLA USABANA
+
+Abre Iniciar visor.cmd para usarlo en tu computador.
+Para publicar, sube únicamente index.html: el puente gris está comprimido dentro de ese archivo. No requiere un GLB separado.
+Pulsa Puente gris y espera a que termine la carga. Después elige computador o VR.
+Puente de madera y Restaurante se añadirán más adelante.
+El motor 3D necesita internet. VR necesita HTTPS y un visor compatible con WebXR.
+
+AJUSTES DE CAMARA
+Abre Ajustes de camara dentro del recorrido para cambiar altura y velocidad.
+Altura de pie vuelve a 1,65 m. Q/E permiten bajar y subir.
+En VR, el joystick izquierdo mueve y el derecho sube/baja.
+Vista general muestra el modelo completo; Reiniciar restaura la vista inicial.
