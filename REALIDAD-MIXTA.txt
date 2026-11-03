@@ -1,0 +1,41 @@
+CUADRILLA USABANA - REALIDAD MIXTA
+
+La entrada "Entrar en VR" abre ahora realidad mixta en un visor compatible.
+El recorrido de computador y celular conserva sus modelos, controles y calidad.
+
+PARA USARLA
+1. Publica index.html y la carpeta assets en la misma ubicacion HTTPS de siempre.
+   El codigo y los datos para separar piezas estan incluidos en index.html.
+2. Abre la pagina desde el navegador del visor, por ejemplo Meta Quest Browser.
+3. Activa el seguimiento de manos, selecciona un puente y pulsa Entrar en VR.
+4. Acepta los permisos del visor. El puente aparecera como una maqueta frente a ti,
+   sobre la imagen de tu entorno real.
+
+GESTOS
+- Una pinza con pulgar e indice cerca del puente: agarrarlo.
+  Mueve la mano para desplazarlo y gira la muneca para orientarlo.
+- Sujetalo con ambas manos haciendo dos pinzas: separa las manos para agrandar
+  y acercalas para encoger. Tambien puedes girarlo con ambas manos.
+- Abre ambas manos frente a la maqueta durante un segundo: separar sus piezas.
+  Relaja o cierra una mano antes de repetir el gesto para volver a reunirlas.
+- Al perder el seguimiento, se suelta el puente. Abre la pinza y vuelve a agarrar.
+
+MENU DENTRO DEL VISOR
+Apunta al menu inferior con la mano y haz una pinza. Tambien admite el gatillo
+de un mando. Permite centrar la maqueta, separar/reunir piezas, cambiar de puente
+y salir. Tambien puedes terminar la sesion desde el menu del propio visor.
+Al salir se restaura la vista del recorrido.
+
+SOBRE LAS PIEZAS
+Los GLB originales no se han alterado. Se recuperaron islas de geometria y se
+agruparon espacialmente en 96 grupos por puente para mostrar la separacion.
+La madera conserva sus materiales y texturas. Estos grupos geometricos no son
+una clasificacion de vigas, barandas o uniones de ingenieria.
+Se conserva la totalidad de triangulos, sin cortes artificiales.
+
+COMPATIBILIDAD Y VERIFICACION
+Requiere HTTPS, WebXR immersive-ar y hand-tracking. No se sustituye silenciosamente
+la realidad mixta por VR si el visor no la soporta: aparece un aviso en la pagina.
+Las pruebas automaticas comprueban geometria, gestos simulados, cambios de modelo
+y restauracion del recorrido. La imagen del entorno real y la precision de los
+gestos deben verificarse en un visor fisico; no se han probado en hardware aqui.
